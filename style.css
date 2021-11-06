@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"Roboto",sans-serif;
+}
+.container
+{
+    width: 980px;
+    margin:0 auto;
+}
+header{
+    /* width:980px; */
+    height:130px;
+    background: #AFEEEE;
+}
+header img
+{
+    padding-left:30px ;
+}
+nav 
+{
+    height: 35px;
+    background:#7FFFD4;
+    margin-bottom: 5px;
+}
+nav .menu ul
+{
+    list-style: none;
+}
+nav .menu ul li 
+{
+       float : left;
+       line-height: 35px;
+       padding: 0 15px; 
+}
+nav .menu ul li a
+{
+    color: #0000FF;
+    font-size: 13px;
+    text-decoration:none;
+}
+nav .search
+{
+    line-height: 35px;
+    float:right;
+    margin-right:30px ;
+}
+#slide a img
+{
+    width: 978px;
+    height: none;
+}
+#anh123
+{
+    height: 200px;
+    width: 200px;
+}
+article h3
+{
+    text-align: center;
+    padding: 15px 0;
+    color: blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+article .new_list .new_item
+{
+    width:28%;
+    padding:10px;
+    float :left;
+    border: 2px solid #ccc;
+    margin-right: 4%;
+}
+article .new_list .new_item h4
+{
+    font-size: 16px;
+    color:red ;
+}
+article .new_list .new_item img
+{
+    margin: 10px 0 auto;
+}
+article .new_list .new_item .content
+{
+    font-size: 15px;
+}
+footer
+{
+    height: 50px;
+    background:#272f54;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size:20px;
+    font-weight: bold;
+
+}
+#fix
+{
+    margin-right: 0;
+}
